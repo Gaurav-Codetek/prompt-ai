@@ -21,3 +21,8 @@ To install Prompt-AI, use pip:
 
 ```bash
 pip install prompt-ai
+```
+To upgrade to latest version (It will get updated every week)
+```bash
+pip install prompt-ai --upgrade
+```
