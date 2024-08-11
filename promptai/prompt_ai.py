@@ -43,6 +43,7 @@ def configure(mongo_uri, database, collec, gen_API, column, embeddings):
             print("embeddings already present")
 
     # Created dataframes of by fetching datasets from mongoDb
+    column.append('Embeddings')
     df = pd.DataFrame(data)
     df.columns = column
 

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="prompt-ai",  # Replace with your package name
-    version="0.1.3",
+    version="0.1.8",
     description="A powerful library for managing AI-driven prompt handling and response generation, featuring structured database management and seamless Node.js integration.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
