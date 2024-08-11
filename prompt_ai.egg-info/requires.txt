@@ -1,4 +1,0 @@
-google.generativeai
-pymongo
-pandas
-numpy
