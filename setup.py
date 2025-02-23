@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name="prompt-ai",  # Replace with your package name
-    version="0.1.8",
+    version="0.2.2",
     description="A powerful library for managing AI-driven prompt handling and response generation, featuring structured database management and seamless Node.js integration.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/Gaurav-Codetek/chatflow.git",  # Replace with your GitHub URL
     author="Gaurav Patel (CodersTek)",
     author_email="gauravpatel29@outlook.in",
-    install_requires=['google.generativeai', 'pymongo', 'pandas', 'numpy'],
+    install_requires=['google.genai', 'requests', 'beautifulsoup4'],
     keywords=['python', 'chatbot', 'genai', 'generative ai', 'gemini api', 'chat ai'],
     license="MIT",
     packages=find_packages(),
